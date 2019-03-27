@@ -135,6 +135,16 @@ a{
 
 /************ Pages Config  *************/
 
+#page-2 .img{
+  width: 20em;
+  height: 20em;
+  border-radius: 10%;
+  opacity: 0.9;
+  background: url('./img/my-profile.JPG') no-repeat center center/cover;
+  margin-top: 20px;
+
+
+}
 
 #page-3 .set-box .box p{
   font-size: 20px;
@@ -340,7 +350,13 @@ a{
     transition: all 0.3s ease-in;
   }
 
-
+  #page-2 img{
+    max-width: 50%;
+    width: 25%;
+    border-radius: 10%;
+  
+  
+  }
   #page2 h1{
     font-size: 15px;
   }
@@ -466,7 +482,16 @@ a{
   }
   
 
-
+  #page-2 .img{
+    width: 15em;
+    height: 20em;
+    border-radius: 10%;
+    opacity: 0.9;
+    background: url('../img/my-profile.JPG') no-repeat center center/cover;
+    margin-top: 20px;
+  
+  
+  }
 #page-2 p{
   font-size: 20px;
   width: 250px;
